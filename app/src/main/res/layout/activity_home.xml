@@ -7,4 +7,21 @@
     tools:context=".Home"
     android:gravity="center"
     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button88"
+            android:layout_width="413dp"
+            android:layout_height="48dp"
+            android:background="#2196F3"
+            android:text="BMI Analyzer"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="-1dp" />
+    </LinearLayout>
 </LinearLayout>
