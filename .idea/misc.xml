@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/al-khatib/AndroidStudioProjects/BMIAnalyzer/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/al-khatib/AndroidStudioProjects/BMIAnalyzer/app/src/main/res/layout/activity_add_food_details.xml" value="0.25" />
         <entry key="..\:/Users/al-khatib/AndroidStudioProjects/BMIAnalyzer/app/src/main/res/layout/activity_add_record.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/al-khatib/AndroidStudioProjects/BMIAnalyzer/app/src/main/res/layout/activity_complete_information.xml" value="0.22" />
         <entry key="..\:/Users/al-khatib/AndroidStudioProjects/BMIAnalyzer/app/src/main/res/layout/activity_home.xml" value="0.14479166666666668" />

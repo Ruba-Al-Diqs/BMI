@@ -17,7 +17,7 @@
             android:id="@+id/button3"
             android:layout_width="413dp"
             android:layout_height="41dp"
-            android:background="#2196F3"
+            android:background="@color/BMI"
             android:text="BMI Analyzer"
             android:textSize="18dp"
             android:textColor="@color/white"
@@ -32,7 +32,7 @@
             android:layout_marginTop="50dp"
             android:gravity="center_horizontal"
             android:text="Create New Account"
-            android:textColor="#5169ED"
+            android:textColor="@color/BMI"
             android:textSize="34sp"
             android:textStyle="bold" />
 
@@ -96,14 +96,14 @@
 
         <Button
             android:id="@+id/btn3"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="80dp"
-            android:layout_marginTop="80dp"
-            android:layout_marginRight="80dp"
-            android:backgroundTint="#5169ED"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/BMI"
             android:text="Create"
-            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView

@@ -32,7 +32,7 @@
             android:layout_marginTop="50dp"
             android:gravity="center_horizontal"
             android:text="New Record"
-            android:textColor="#5169ED"
+            android:textColor="@color/BMI"
             android:textSize="34sp"
             android:textStyle="bold" />
         <LinearLayout
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:text="Weight"
                 android:textAlignment="center"
-                android:textColor="#5169ED"
+                android:textColor="@color/BMI"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -57,7 +57,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/ic_add_"
                 android:textAlignment="center"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/weightNumber"
@@ -70,9 +70,10 @@
                 android:id="@+id/weightmins"
                 android:layout_width="37dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="@drawable/ic_mins"
                 android:textAlignment="center"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -81,7 +82,7 @@
                 android:layout_weight="1"
                 android:text="Kg"
                 android:textAlignment="center"
-                android:textColor="#5169ED"
+                android:textColor="@color/BMI"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -100,7 +101,7 @@
                 android:layout_height="wrap_content"
                 android:text="Length"
                 android:textAlignment="center"
-                android:textColor="#5169ED"
+                android:textColor="@color/BMI"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -125,6 +126,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/ic_mins"
                 android:textAlignment="center"
+                android:gravity="center"
                 android:textStyle="bold" />
 
             <TextView
@@ -134,7 +136,7 @@
                 android:layout_weight="1"
                 android:text="cm"
                 android:textAlignment="center"
-                android:textColor="#5169ED"
+                android:textColor="@color/BMI"
                 android:textSize="22sp"
                 android:textStyle="bold"/>
             android:layout_marginLeft="10dp"
@@ -154,7 +156,7 @@
                 android:layout_weight="1"
                 android:text="Date"
                 android:textAlignment="center"
-                android:textColor="#5169ED"
+                android:textColor="@color/BMI"
                 android:textSize="22sp"
                 android:textStyle="bold"/>
 
@@ -167,7 +169,7 @@
                 android:inputType="textPersonName"
                 android:text=""
                 android:textAlignment="center"
-                android:textColor="#5169ED"
+                android:textColor="@color/BMI"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -186,7 +188,7 @@
                 android:layout_weight="1"
                 android:text="Time"
                 android:textAlignment="center"
-                android:textColor="#5169ED"
+                android:textColor="@color/BMI"
                 android:textSize="22sp"
                 android:textStyle="bold"/>
 
@@ -199,7 +201,7 @@
                 android:inputType="textPersonName"
                 android:text=""
                 android:textAlignment="center"
-                android:textColor="#5169ED"
+                android:textColor="@color/BMI"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -213,8 +215,9 @@
             android:layout_marginLeft="80dp"
             android:layout_marginTop="80dp"
             android:layout_marginRight="80dp"
-            android:backgroundTint="#5169ED"
+            android:backgroundTint="@color/BMI"
             android:text="Save  Data"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
 
