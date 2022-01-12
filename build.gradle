@@ -2,22 +2,20 @@
 buildscript {
     repositories {
         google()
-        mavenCentral()
+        jcenter()
     }
-
-    plugins{
-        id('com.android.application')
-        id('com.google.gms.google-services')
-
-    }
-
     dependencies {
-        classpath "com.android.tools.build:gradle:7.0.3"
+        classpath "com.android.tools.build:gradle:4.1.1"
+        classpath 'com.google.gms:google-services:4.3.10'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
-        classpath 'com.google.gms:google-services:4.3.10'
-        implementation platform('com.google.firebase:firebase-bom:29.0.3')
-        implementation 'com.google.firebase:firebase-analytics'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
     }
 }
 
