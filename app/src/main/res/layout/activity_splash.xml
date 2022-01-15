@@ -6,13 +6,31 @@
         android:layout_height="match_parent"
         tools:context=".Splash"
         android:gravity="center"
+
+        android:orientation="vertical"
         android:background="@color/BMI" >
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/Logo" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginend="40dp"
+            android:layout_marginLeft="150dp"
+            android:text="Next" />
+
+
     </LinearLayout>
+
 
