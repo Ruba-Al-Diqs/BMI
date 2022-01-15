@@ -54,20 +54,20 @@ public class activityRegiester extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (userName.getText().toString().equals("")) {
-                    Toast.makeText(getApplicationContext(), "الاسم مطلوب", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "user name", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if (mail.getText().toString().equals("")) {
-                    Toast.makeText(getApplicationContext(), "الايميل مطلوب", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "E.mail", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if (password.getText().toString().equals("")) {
-                    password.setError("كلمة السر مهمة");
+                    password.setError(" passsword error ");
                     return;
                 }
 
                 if (!password.getText().toString().equals(agenPassword.getText().toString())) {
-                    Toast.makeText(getApplicationContext(), "الرجاء التاكد من تطابق كلمتا المرور", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Enter your password again carefully", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 String email = mail.getText().toString();

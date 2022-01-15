@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BMIANLIZERS">
         <activity
-            android:name=".Registration"
+            android:name=".activityRegiester"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
@@ -18,6 +18,22 @@
         <activity
             android:name=".Splash"
             android:exported="false" />
+        <activity
+            android:name=".activtyEditFood"
+            android:exported="false" />
+        <activity
+            android:name=".activityListFood"
+            android:exported="false" />
+        <activity
+            android:name=".activityAddFood"
+            android:exported="false" />
+        <activity
+            android:name=".activityNewRecord"
+            android:exported="false" />
+        <activity
+            android:name=".activityHome"
+            android:exported="false" />
+        <activity android:name=".activityCompleteInformation" />
     </application>
 
 </manifest>
