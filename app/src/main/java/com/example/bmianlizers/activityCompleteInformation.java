@@ -37,7 +37,7 @@ public class activityCompleteInformation extends AppCompatActivity implements Da
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_compliter_regester);
+        setContentView(R.layout.CompleteInformationActivity);
         maxLength = findViewById(R.id.maxLength);
         minLength = findViewById(R.id.minLength);
         minWei = findViewById(R.id.minWei);
